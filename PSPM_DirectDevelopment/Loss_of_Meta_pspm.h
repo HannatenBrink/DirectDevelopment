@@ -1,11 +1,11 @@
 /*
- * Onto_scaling_TPB1998.h
+ * Loss_of_Meta_pspm.h
  *
  * Header file specifying the life history of roach  (Ontogenetic scaling of foraging rates and the dynamics of a size-structured consumer-resource model. Persson et al 1998)
  *
  *
  *
- * Last modification: Htb - Nov 12 2019
+ * Last modification: Nov 12 2019
  *  In the ms, we use parameter X_J to refer to the irreversible body mass at metamorphosis. However, for numerical reasons, in the model formulation of the pspm we use X_J=Xj+Xmin
      To contintue the ERP, it is sometimes necessary to make use of an alternative formulation (Loss_of_Meta_cwl.h), where the irreversible body mass at metamorphosis X_J = Xj. In the figures, total body mass at birth is calculated as (Xj+Xmin)*1.742 in case we used the standard model (Loss_of_meta_pspm.h), and as Xj*1.742 in case of the alternative model (Loss_of_Meta_cwl)
  */

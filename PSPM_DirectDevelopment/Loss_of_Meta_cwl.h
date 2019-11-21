@@ -1,16 +1,14 @@
 /*
- * Onto_scaling_TPB1998.h
+ * Loss_of_Meta_cwl.h
  *
  * Header file specifying the life history of roach  (Ontogenetic scaling of foraging rates and the dynamics of a size-structured consumer-resource model. Persson et al 1998)
  *
  *
  *
- * Last modification: Htb - Sep 12 2019
- * Costs of metamorphosis only paid if you are born BEFORE metamorphosis.
- * What if metamorphosis takes place after maturation? Then the mom pays the costs
- * Fat reduction of individuals during metamorphosis is relative to what they build up during growth
+ * Last modification:  Sep 12 2019
+
  * In this file, Size at meta is Xj (in most files, it was size at meta = Xmin + Xj. 
- * Dit is nodig omdat soms size at meta < Xmin is, en de stages dan omwisselen. Gaat dat goed?
+ * Needed to continue ERP
  */
 
 /*
