@@ -1,0 +1,40 @@
+"Maximum integration time"                                     	10000
+"Output time interval"                                          	1
+"Complete state output interval, 0 for none"						1e6
+"[ 0] RHO						Resource turnover rate"					0.1
+"[ 1] XMAX1						Max resource density1" 					3.3e-05
+"[ 2] XMAX2						Max resource density2 " 					0.000165
+"[ 3] XB						Newborn irreversible mass"				0.0247352008
+"[ 4] XMIN					Irreversible mass R2 available"			0.1
+"[ 5] XJ						Irreversible mass at metamorphosis"		0.1375225626
+"[ 6] XA						Irreversible mass at maturation"			5
+"[ 7] W_0					Body mass where attack rate is max" 		17.42
+"[ 8] AMAX					Maximum attack rate"						1e5
+"[ 9] AMIN					Minimum attack rate"						1e4
+"[10] PSI_L					Specialization of larvae on R2"			0
+"[11] META					Extend of metamorphosis"					0.999724622
+"[12] SIGMA					Constant in resource switching"			100
+"[13] ALPHA					Attack rate exponent"					0.93
+"[14] DZETA1					Constant in handling time"				0.36
+"[15] DZETA2					Constant in handling time"				7.45
+"[16] DZETA3					Slope in handling time"					0.68
+"[17] DZETA4					Slope in handling time"					1.15e-3
+"[18] P1						Metabolic constant"						0.033
+"[19] P2						Metabolic exponent"						0.77
+"[20] KE						Conversion efficiency"					0.61
+"[21] QJ						Max reversible mass"						0.742
+"[22] QA						Adult allocation factor"					1
+"[23] ETA					Conversion factor in reproduction"		0.5
+"[24] MUB					Background mortality rate"				0.01
+"[25] META_QS				Ratio y/x after full meta"				0.2
+"[26] META_MU				Probability to die during full meta"		0.5
+"[27] QS						Prop constant determining y at starve"	0.2
+"[28] MUS					Starvation mortality constant"			0.2
+"[29] LITERS					Size of the the system"					1e7
+"[30] delta_t				Step size of IBM"						0.1
+"[31] mu_psi					Mutrate_psi"								0
+"[32] mu_meta				Mutrate_meta"							0
+"[33] mu_xj					Mutrate_xj"								0
+"[34] mu_xb					Mutrate_Xb"								0
+"[35] mutvar					Mut var"									0.01
+"[36] SR						Steepness of decline"					0
